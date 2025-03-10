@@ -1,0 +1,12 @@
+# File di sistema
+.idea/
+*.iml
+
+# Cartelle di build (non necessarie su GitHub)
+.gradle/
+build/
+captures/
+
+# File specifici di Android
+local.properties
+*.keystore
