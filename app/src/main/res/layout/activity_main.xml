@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryVariant">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imposta i parametri:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/spmInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Colpi al minuto (SPM)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/waterPhaseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="% tempo in acqua"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="12dp"/>
+
+    <CheckBox
+        android:id="@+id/enableToneCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attiva suoni progressivi"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:checked="true"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avvia"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

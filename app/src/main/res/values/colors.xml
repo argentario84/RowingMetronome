@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A237E</color> <!-- Blu Navy -->
+    <color name="colorPrimaryVariant">#0D47A1</color> <!-- Blu Navy più scuro -->
+    <color name="colorSecondary">#D32F2F</color> <!-- Rosso acceso -->
+    <color name="colorAccent">#B71C1C</color> <!-- Rosso scuro -->
+</resources>
